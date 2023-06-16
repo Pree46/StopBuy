@@ -1,0 +1,35 @@
+.gradient-background {
+    background: linear-gradient(1000deg, #f4c430 ,#fbfab1, white);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.hero1{
+    background-color: #f4c430;
+}
+.topbar{
+    background-color: #f4c430;
+}
+.topbar-link{
+    color: white;
+}
+.header{
+    background-color: #f4c430;
+}
+.image{
+    width: 700;
+    height: 900;
+    margin-top: 5px;
+    margin-bottom: 0;
+}

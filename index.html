@@ -2,11 +2,78 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title></title>
-        <link rel="stylesheet" href="./style.css">
-        
+        <title>StopBuy</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     </head>
     <body>
+      <div class="header">
+        <div class="topbar">
+          <div class="top-bar text-sm bg-transparent">
+            <div class="px-lg-5 py-3 container-fluid">
+              <div class="align-items-center row">
+                <div class="d-none d-md-block col-md-4">
+                  <ul class="list-inline mb-0">
+                    <li class="list-inline-item me-2">
+                      <a class="text-reset text-hover-primary" href="#" aria-label="Go to Facebook"><img src="./images/fb.png" height="30"></a></li>
+                    <li class="list-inline-item me-4"><a class="text-reset text-hover-primary" href="#" aria-label="Go to Twitter"><img src="./images/twitter.png" height="30"></a></li>
+                    <li class="list-inline-item me-2"><img src="./images/phone.png" height="30"><use xlink:href="#calls-1"></use></svg>020-800-456-747</li></ul>
+                        </div>
+                <div class="text-start text-md-center col-md-4 col-sm-6">
+                  <p class="mb-0">20% of for first purchase</p></div>
+                <div class="d-none d-sm-flex justify-content-end col-md-4 col-sm-6">
+                  <div class="border-end px-3 dropdown">
+                    <a class="topbar-link dropdown-toggle dropdown-toggle" id="langsDropdown" aria-expanded="false" href="#">English</a></div>
+                  <div class="ps-3 ms-0 dropdown"><a class="topbar-link dropdown-toggle dropdown-toggle" id="currencyDropdown" aria-expanded="false" href="#">USD</a>
+                  </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/SB (3).png" height="30">StopBuy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="navbar-collapse collapse">
+              <div class="mt-3 mt-lg-0 navbar-nav">
+                <div class="dropdown nav-item" id="dropdown-Home"><a id="dropdown-Home-toggle" aria-expanded="false" role="button" class="active dropdown-toggle nav-link" tabindex="0" href="#">Home</a></div>
+                <div class="dropdown nav-item" id="dropdown-Shop"><a id="dropdown-Shop-toggle" aria-expanded="false" role="button" class="dropdown-toggle nav-link" tabindex="0" href="#">Shop</a></div>
+                <div class="dropdown nav-item" id="dropdown-Product Cards"><a id="dropdown-Product Cards-toggle" aria-expanded="false" role="button" class="dropdown-toggle nav-link" tabindex="0" href="#">Product Cards</a></div>
+                <div class="dropdown nav-item" id="dropdown-Icons"><a id="dropdown-Icons-toggle" aria-expanded="false" role="button" class="dropdown-toggle nav-link" tabindex="0" href="#">Icons</a></div>
+                <div class="position-static dropdown nav-item" id="dropdown-Pages"><a id="dropdown-Pages-toggle" aria-expanded="false" role="button" class="dropdown-toggle nav-link" tabindex="0" href="#">Pages</a></div>
+                <div class="dropdown nav-item" id="dropdown-Docs"><a id="dropdown-Docs-toggle" aria-expanded="false" role="button" class="dropdown-toggle nav-link" tabindex="0" href="#">Docs</a></div></div><form class="d-lg-flex ms-auto me-lg-5 me-xl-6 my-4 my-lg-0">
+              <div class="searchbar">    
+              <form role="search">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+              </form></div>
+            </div>
+          </div>
+        </nav>
+      </div>
+        <div class="hero1 gradient-background">
+          <div class="container col-xxl-8 px-4 pt-3">
+              <div class="row flex-lg-row-reverse align-items-center g-5 pt-3">
+                <div class="image col-10 col-sm-8 col-lg-6">
+                  <img src="./images/girl.png"  class="profile-img mt-5" height="600" width="800" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                  <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
+                  <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn btn-dark btn-lg px-4 me-md-2" fdprocessedid="936jdt7">Primary</button>
+                    <button type="button" class="btn btn-outline-light btn-lg px-4" fdprocessedid="1i3vy">Default</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         
+     <script src="./index.js" charset="UTF-8"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>        
     </body>
 </html>
