@@ -7,14 +7,14 @@ html {
   min-height: 100%;
 }
 .productdesp{
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
-    height: 70vh;
-    width: 190vh;
+    height: 100vh;
+    width: 200vh;
     gap: 120px;
 
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: center ;
     align-content: center;
 
 }
@@ -22,21 +22,33 @@ html {
 .shoe1 {
   position: relative;
   overflow: hidden;
-  width: 520px;
-  height: 350px;
-  background: white;
+  width: 1000px;
+  height: 500px;
+  background: #fff;
   box-shadow: 5px 5px 15px rgba(rose, .5);
   border-radius: 10px;
   font-family: 'Lato', sans-serif;
+
+  
+
+
 }
 
 .shoe1 p {
+  font-size: 1.3em;
+  letter-spacing: 1px;
+  
+}
+
+.women {
   font-size: 0.6em;
   letter-spacing: 1px;
+  margin-top: -25px;
+  
 }
 
 .shoe1 h1 {
-  font-size: 1.2em;
+  font-size: 2.5em;
   color: dark;
   margin-top: -5px;
 }
@@ -44,11 +56,13 @@ html {
 .shoe1 h2 {
   color: tan;
   margin-top: -5px;
+  font-size: 2.8em;
 }
 
 .shoe1 img {
-  width: 290px;
-  margin-top: 47px;
+  width: 400px;
+  height: 300px;
+  margin-top: 50px;
 }
 
 
@@ -59,12 +73,13 @@ html {
   height: 100%;
   top: 10%;
   left: 60%;
+  margin-left: 1pc;
 }
 
 .shoe1 .desc {
   text-transform: none;
   letter-spacing: 0;
-  margin-bottom: 17px;
+  margin-bottom: 135px;
   color: dark;
   font-size: 1.017em;
   line-height: 1.6em;
