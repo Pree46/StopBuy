@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background: #fec107;
+  padding: 0 10px;
+}
 :root {
     --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
   }

@@ -79,7 +79,7 @@ html {
 .shoe1 .desc {
   text-transform: none;
   letter-spacing: 0;
-  margin-bottom: 135px;
+  margin-bottom: 102px;
   color: dark;
   font-size: 1.017em;
   line-height: 1.6em;
@@ -87,13 +87,28 @@ html {
   text-align: justify;
 }
 
-.shoe1 button {
+.shoe1 .like {
   background: darken(light, 10%);
   padding: 10px;
   display: inline-block;
   outline: 0;
   border: 0;
   margin: -1px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  cursor: pointer;
+  background-color: #f4c430;
+}
+.shoe1 .add {
+  background: darken(light, 10%);
+  padding: 10px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  margin: -0px;
+  margin-top: -6px;
   border-radius: 2px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -142,3 +157,16 @@ html {
   background: rose;
   color: white;
 }
+.float{
+  position: absolute;
+	width: 60px;
+	height: 60px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius: 80%;
+	text-align:center;
+  font-size:40px;
+	box-shadow: 2px 2px 2px #999;
+  margin-top: 10px;
+}
+
