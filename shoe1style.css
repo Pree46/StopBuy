@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+
+
+/* center container in the middle */
+html {
+  min-height: 100%;
+}
+.productdesp{
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 200vh;
+    gap: 120px;
+
+    justify-content: space-evenly;
+    align-items: center ;
+    align-content: center;
+
+}
+
+.shoe1 {
+  position: relative;
+  overflow: hidden;
+  width: 1000px;
+  height: 500px;
+  background: #fff;
+  box-shadow: 5px 5px 15px rgba(rose, .5);
+  border-radius: 10px;
+  font-family: 'Lato', sans-serif;
+
+  
+
+
+}
+
+.shoe1 p {
+  font-size: 1.3em;
+  letter-spacing: 1px;
+  
+}
+
+.women {
+  font-size: 0.6em;
+  letter-spacing: 1px;
+  margin-top: -25px;
+  
+}
+
+.shoe1 h1 {
+  font-size: 2.5em;
+  color: dark;
+  margin-top: -5px;
+}
+
+.shoe1 h2 {
+  color: tan;
+  margin-top: -5px;
+  font-size: 2.8em;
+}
+
+.shoe1 img {
+  width: 400px;
+  height: 300px;
+  margin-top: 50px;
+}
+
+
+
+.shoe1 .product {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 10%;
+  left: 60%;
+  margin-left: 1pc;
+}
+
+.shoe1 .desc {
+  text-transform: none;
+  letter-spacing: 0;
+  margin-bottom: 102px;
+  color: dark;
+  font-size: 1.017em;
+  line-height: 1.6em;
+  margin-right: 25px;
+  text-align: justify;
+}
+
+.shoe1 .like {
+  background: darken(light, 10%);
+  padding: 10px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  margin: -1px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  cursor: pointer;
+  background-color: #f4c430;
+}
+.shoe1 .add {
+  background: darken(light, 10%);
+  padding: 10px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  margin: -0px;
+  margin-top: -6px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  cursor: pointer;
+  background-color: #f4c430;
+}
+
+.add {
+  width: 67%;
+}
+
+.like {
+  width: 22%;
+}
+
+.sizes {
+  display: grid;
+  color: #f4c430;
+  grid-template-columns: repeat(auto-fill, 30px);
+  width: 60%;
+  grid-gap: 4px;
+  margin-left: 20px;
+  margin-top: 5px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.pick {
+  margin-top: 11px;
+  margin-bottom:0;
+  margin-left: 20px;
+}
+
+.size {
+  padding: 9px;
+  border: 1px solid light;
+  font-size: 0.7em;
+  text-align: center;
+  background: #f4c430;
+  color: white;
+}
+
+.focus{
+  background: rose;
+  color: white;
+}
+.float{
+  position: absolute;
+	width: 60px;
+	height: 60px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius: 80%;
+	text-align:center;
+  font-size:40px;
+	box-shadow: 2px 2px 2px #999;
+  margin-top: 10px;
+}
+
