@@ -11,6 +11,7 @@
       <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+      
     </head>
     <body>
       <div class="header">
@@ -21,9 +22,9 @@
                 <div class="d-none d-md-block col-md-4">
                   <ul class="list-inline mb-0">
                     <li class="list-inline-item me-2">
-                      <a class="text-reset text-hover-primary" href="#" aria-label="Go to Facebook"><img src="../images/fb.png" height="30"></a></li>
-                    <li class="list-inline-item me-4"><a class="text-reset text-hover-primary" href="#" aria-label="Go to Twitter"><img src="../images/twitter.png" height="30"></a></li>
-                    <li class="list-inline-item me-2"><img src="../images/phone.jpg" height="30"><use xlink:href="#calls-1"></use></svg>020-800-456-747</li></ul>
+                      <a class="text-reset text-hover-primary" href="#" aria-label="Go to Facebook"><img src="./images/fb.png" height="30"></a></li>
+                    <li class="list-inline-item me-4"><a class="text-reset text-hover-primary" href="#" aria-label="Go to Twitter"><img src="./images/twitter.png" height="30"></a></li>
+                    <li class="list-inline-item me-2"><img src="./images/phone.png" height="30"><use xlink:href="#calls-1"></use></svg>020-800-456-747</li></ul>
                         </div>
                 <div class="text-start text-md-center col-md-4 col-sm-6">
                   <p class="mb-0">Prudence Paired With Providence</p></div>
@@ -39,7 +40,7 @@
         </div>
 
         <nav class="px-3 navbar navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand" href="#"><img src="./images/SB (3).png" height="30">StopBuy</a>
+          <a class="navbar-brand" href="#"><img src="./images/SB (3).png" height="60">StopBuy</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -66,7 +67,10 @@
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../ChatPortal/chat.html">Request</a>
+                  <a class="nav-link" href="./ChatPortal/chat.html">Request</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./donate.html">Donate</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="./info.html"><img src="./images/info.png" height="20"></a>
@@ -78,10 +82,11 @@
 
 
               <div class="Login">
-                <a href="../login/login.html"><button type="login button" class="btn btn-sm btn">Log in</button></a>
+                <a href="./login/login.html"><button type="login button" class="btn btn-sm btn">Log in</button></a>
               </div>
+              <h1 id="nothing">-</h1>
               <div class="Login">
-                <a href=#><button type="button" data-toggle="modal" data-target="#cart" class="btn btn-sm btn">Cart</button></a>
+                <a href=#><button type="button" data-toggle="modal" data-target="#cart" class="btn btn-sm btn"><img src="./images/cart2.png" height="15"></button></a>
               </div>
             </div>
           </div>
@@ -100,7 +105,7 @@
               <table class="show-cart table">
                 
               </table>
-              <div>Total price: $<span class="total-cart"></span></div>
+              <div>Total price: ₹<span class="total-cart"></span></div>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

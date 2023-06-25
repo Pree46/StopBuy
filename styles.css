@@ -184,3 +184,7 @@ body{
   align-items: end !important;
   background-color: #f4c430 !important;
 }
+
+.nothing{
+  color: #2d3548;
+}
