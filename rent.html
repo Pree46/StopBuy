@@ -27,7 +27,7 @@
                 <div class="d-none d-sm-flex justify-content-end col-md-4 col-sm-6">
                   <div class="border-end px-3 dropdown">
                     <a class="topbar-link dropdown-toggle dropdown-toggle" id="langsDropdown" aria-expanded="false" href="#">English</a></div>
-                  <div class="ps-3 ms-0 dropdown"><a class="topbar-link dropdown-toggle dropdown-toggle" id="currencyDropdown" aria-expanded="false" href="#">USD</a>
+                  <div class="ps-3 ms-0 dropdown"><a class="topbar-link dropdown-toggle dropdown-toggle" id="currencyDropdown" aria-expanded="false" href="#">INR</a>
                   </div>
                   </div>
                 </div>
@@ -36,38 +36,79 @@
         </div>
 
         <nav class="px-3 navbar navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand" href="#"><img src="./images/SB (3).png" height="30">StopBuy</a>
+          <a class="navbar-brand" href="#"><img src="./images/SB (3).png" height="60">StopBuy</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-    
-          <div class="collapse navbar-collapse" id="navbarsExample05">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="./index.html">Home </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sell/Rent</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
-                <div class="dropdown-menu " aria-labelledby="dropdown05">
-                  <a class="dropdown-item" href="./electronics.html">💻Electronics</a>
-                  <a class="dropdown-item" href="./furniture.html">🪑Furniture</a>
-                  <a class="dropdown-item" href="./vehicle.html">🛵Vehicle</a>
-                  <a class="dropdown-item" href="./books.html">📚Books</a>
-                  <a class="dropdown-item" href="./clothes.html">👗Clothes</a>
-                  <a class="dropdown-item" href="./accessories.html">💍Accessories</a>
-                  <a class="dropdown-item" href="./shoes.html">👟Shoes</a>
-                  <a class="dropdown-item" href="./watch.html">⌚Watches</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./info.html"><img src="./images/info.png" height="20"></a>
-              </li>
-            </ul>
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./rent.html">Sell/Rent</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+                  <div class="dropdown-menu " aria-labelledby="dropdown05">
+                    <a class="dropdown-item" href="./electronics.html">💻Electronics</a>
+                    <a class="dropdown-item" href="./furniture.html">🪑Furniture</a>
+                    <a class="dropdown-item" href="./vehicle.html">🛵Vehicle</a>
+                    <a class="dropdown-item" href="./books.html">📚Books</a>
+                    <a class="dropdown-item" href="./clothes.html">👗Clothes</a>
+                    <a class="dropdown-item" href="./accessories.html">💍Accessories</a>
+                    <a class="dropdown-item" href="./shoes.html">👟Shoes</a>
+                    <a class="dropdown-item" href="./watch.html">⌚Watches</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./ChatPortal/chat.html">Request</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./donate.html">Donate</a>
+                </li>  
+                <li class="nav-item">
+                  <a class="nav-link" href="./info.html"><img src="./images/info.png" height="20"></a>
+                </li>
+              </ul>
+                
+
+
+
+
+              <div class="Login">
+                <a href="./login/login.html"><button type="login button" class="btn btn-sm btn">Log in</button></a>
+              </div>
+              <h1 id="nothing">-</h1>
+              <div class="Login">
+                <a href=#><button type="button" data-toggle="modal" data-target="#cart" class="btn btn-sm btn"><img src="./images/cart2.png" height="15"></button></a>
+              </div>
+            </div>
           </div>
         </nav>
+      </div>
+      <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="show-cart table">
+                
+              </table>
+              <div>Total price: ₹<span class="total-cart"></span></div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Order now</button>
+            </div>
+          </div>
+        </div>
       </div>
 <!--Terms of condition-->
 <div class="wrapper">
