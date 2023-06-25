@@ -5,12 +5,10 @@ window.onload = function() {
     const firebaseConfig = {
       apiKey: "AIzaSyCIq9Qe9_OS345eSuuytF0iYD6C7bzWlo0",
       authDomain: "stopbuy-a324f.firebaseapp.com",
-      databaseURL: "https://stopbuy-a324f-default-rtdb.firebaseio.com",
       projectId: "stopbuy-a324f",
       storageBucket: "stopbuy-a324f.appspot.com",
       messagingSenderId: "294488402851",
-      appId: "1:294488402851:web:706e726177d721c79a0816",
-      measurementId: "G-V9XNEP9FXM"
+      appId: "1:294488402851:web:706e726177d721c79a0816"
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
