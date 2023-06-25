@@ -155,6 +155,7 @@
 
 		    console.log(user);
 		    alert(user.email+" Login successfully!!!");
+        window.location.href ="../index.html";
         document.location.href = "../index.html";
 		    document.getElementById('logout').style.display = 'block';
 		    // ...
@@ -174,7 +175,7 @@
 			  // Sign-out successful.
 			  console.log('Sign-out successful.');
 			  alert('Sign-out successful.');
-        document.location.href = "../index.html";
+        window.location.href ="../index.html";
 			  document.getElementById('logout').style.display = 'none';
 			}).catch((error) => {
 			  // An error happened.
@@ -183,4 +184,5 @@
 	  });
 
   </script>
+  <link><script type="text/javascript" src="chat.js"></script>/>
 </html>
