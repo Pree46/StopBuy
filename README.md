@@ -1,7 +1,7 @@
 # StopBuy
 <p align="center">
   <a href="https://stopbuy-1--pree46.repl.co/">
-    <img alt = "StopBuy Logo" src = "./images/SB logo nobackground.png" height="120">
+    <img alt = "StopBuy Logo" src = "./images/SB logo nobackground.png" height="180">
   </a>
 </p>
 <h1 align="center" >StopBuy: Unleash Student Commerce - Connect, Trade, Empower with Prudence and Providence!</h1>
@@ -31,7 +31,7 @@ StopBuy is one of a kind Online platform which connects a already existing colle
 
 ## ✅ How StopBuy Works
 
-## Buyer Point of View
+## ⭐ Buyer Point of View
 When a user Enters our website they will be able see all the categories availabe.Then they will be able view recommendations as they scroll down.
 Once the user clicks any one of the categories they will be directed to the page which have all the products available under the chosen category.
 When the user clicks on a specific product they will be directed to the product description page which holds all the details of the product. In this page there will be an add to card option which add the product to the shopping cart so that the user does not miss their desired product.
@@ -39,7 +39,7 @@ To move on with further payment the user first has to log in into the website.
 If the user finds that the product they are looking for is not available in the website the can visit the request portal which present in the Navigation bar. In the request portal can put a request for the products they need and the sellers can put forward their offer relevent to the request made.
 Further more there is also a donation portal where products available on donation can be seen.
 
-## Seller Point of View
+## ⭐ Seller Point of View
 when a user enters our website they can login first and they go the sell/rent portal present in the Navigation bar. There they can fill the product details. Then their product is published in the website if it abides with the terms and conditions of our website.
 They can also put forward their products in the donation portal.
 
@@ -57,8 +57,8 @@ They can also put forward their products in the donation portal.
 
 
 ## 📞 Contact Us
-If you have any questions or feedback about the ResqAI system, please don't hesitate to contact us - 
+If you have any questions or feedback about StopBuy, please don't hesitate to contact us - 
 <br>
 
-<a href="https://linktr.ee/prayasu"> R Preethi </a> <br>
-<a href="https://linktr.ee/SiddharthaBhattacharjee"> Ritul Bharati </a> <br>
+<a href="https://www.linkedin.com/in/r-preethi-09254724b/"> R Preethi </a> <br>
+<a href="https://www.linkedin.com/in/ritul-bharati-59683224b"> Ritul Bharati </a> <br>
