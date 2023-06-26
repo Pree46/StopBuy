@@ -1,7 +1,7 @@
 # StopBuy
 <p align="center">
   <a href="https://stopbuy-1--pree46.repl.co/">
-    <img alt = "StopBuy Logo" src = "./images/SB (3).png" height="60">
+    <img alt = "StopBuy Logo" src = "./images/SB logo nobackground.png" height="80">
   </a>
 </p>
 <h1 align="center" >StopBuy: Unleash Student Commerce - Connect, Trade, Empower with Prudence and Providence!</h1>
@@ -26,7 +26,7 @@ We know that, college students especially one's living in hostel or PG's need to
 ## 🤔 The problem StopBuy solves
 
 StopBuy is one of a kind Online platform which connects a already existing college community in an efficient and economical way. In many online retail platforms there is no personalised to connect with the seller.In stopBuy students can connect with their peers who are selling their product and can even request for products that are unavailable currently.In the request portal the whole student community can view the request message and can respond accordingly.
-/
+
 <br>
 
 ## ✅ How StopBuy Works
