@@ -1,7 +1,7 @@
 # StopBuy
 <p align="center">
   <a href="https://stopbuy-1--pree46.repl.co/">
-    <img alt = "StopBuy Logo" src = "./images/SB logo nobackground.png" height="80">
+    <img alt = "StopBuy Logo" src = "./images/SB logo nobackground.png" height="120">
   </a>
 </p>
 <h1 align="center" >StopBuy: Unleash Student Commerce - Connect, Trade, Empower with Prudence and Providence!</h1>
