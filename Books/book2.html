@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>StopBuy</title>
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="../shoe1style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <div class="header">
+        <div class="topbar">
+          <div class="top-bar text-sm bg-transparent">
+            <div class="px-lg-5 py-3 container-fluid">
+              <div class="align-items-center row">
+                <div class="d-none d-md-block col-md-4">
+                  <ul class="list-inline mb-0">
+                    <li class="list-inline-item me-2">
+                      <a class="text-reset text-hover-primary" href="#" aria-label="Go to Facebook"><img src="../images/fb.png" height="30"></a></li>
+                    <li class="list-inline-item me-4"><a class="text-reset text-hover-primary" href="#" aria-label="Go to Twitter"><img src="../images/twitter.png" height="30"></a></li>
+                    <li class="list-inline-item me-2"><img src="../images/phone.png" height="30"><use xlink:href="#calls-1"></use></svg>020-800-456-747</li></ul>
+                        </div>
+                <div class="text-start text-md-center col-md-4 col-sm-6">
+                  <p class="mb-0">Prudence Paired With Providence</p></div>
+                <div class="d-none d-sm-flex justify-content-end col-md-4 col-sm-6">
+                  <div class="border-end px-3 dropdown">
+                    <a class="topbar-link dropdown-toggle dropdown-toggle" id="langsDropdown" aria-expanded="false" href="#">English</a></div>
+                  <div class="ps-3 ms-0 dropdown"><a class="topbar-link dropdown-toggle dropdown-toggle" id="currencyDropdown" aria-expanded="false" href="#">INR</a>
+                  </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <nav class="px-3 navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#"><img src="../images/SB (3).png" height="60">StopBuy</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="../index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../rent.html">Sell/Rent</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+                  <div class="dropdown-menu " aria-labelledby="dropdown05">
+                    <a class="dropdown-item" href="../electronics.html">💻Electronics</a>
+                    <a class="dropdown-item" href="../furniture.html">🪑Furniture</a>
+                    <a class="dropdown-item" href="../vehicle.html">🛵Vehicle</a>
+                    <a class="dropdown-item" href="../books.html">📚Books</a>
+                    <a class="dropdown-item" href="../clothes.html">👗Clothes</a>
+                    <a class="dropdown-item" href="../accessories.html">💍Accessories</a>
+                    <a class="dropdown-item" href="../shoes.html">👟Shoes</a>
+                    <a class="dropdown-item" href="../watch.html">⌚Watches</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../ChatPortal/chat.html">Request</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../donate.html">Donate</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../info.html"><img src="../images/info.png" height="20"></a>
+                </li>
+              </ul>
+                
+
+
+
+
+              <div class="Login">
+                <a href="../login/login.html"><button type="login button" class="btn btn-sm btn">Log in</button></a>
+              </div>
+              <h1 id="nothing">-</h1>
+              <div class="Login">
+                <a href=#><button type="button" data-toggle="modal" data-target="#cart" class="btn btn-sm btn"><img src="../images/cart2.png" height="15"></button></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="show-cart table">
+                
+              </table>
+              <div>Total price: ₹<span class="total-cart"></span></div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Order now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <div class="productdesp">
+      <!--product description-->
+      <div class="flex-container shoe1 py-8 mb-2 px-3">
+        <div class="images">
+          <img src="../images/bookset4.jpeg" />
+          <p class="pick"></p>
+          <div class="sizes">
+          </div>
+        </div>
+        
+        <div class="product py-3 mb-3 px-0">
+          <p class="women"></p>
+          <h1>COLLEEN HOOVER SERIES</h1>
+          <h2>₹2500</h2>
+          <p class="desc">Get your eyes set and minds covered on the romantic books written by Colleen Hoover. Maybe you will fall in love with these books more than the romantic movies.</p>
+          <div class="buttons">
+            <a href="#" data-name="COLLEEN HOOVER SERIES" data-price="2500" class="add-to-cart add btn btn-primary ">Add to Cart</a>
+            <button class="like"><span>♥</span></button>
+          </div>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+          <a href="https://web.whatsapp.com/" class="float" target="_blank">
+          <i class="fa fa-whatsapp my-float"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+            <!--footer-->
+            <div class="lg-8 px-5 ftr">
+              <footer id="contacts" class="py-5">
+                <div class="row">
+                  <div class="col-6 col-md-2 mb-3">
+                    <h5>CONTACT</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><img src="../images/location.jpg" height="25"> XYZ Flats, Street</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><img src="../images/mail.jpg" height="25"> code@gmail.com</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><img src="../images/phone.png" height="25"> 203-120-004</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a></li>
+                    </ul>
+                  </div>
+            
+                  <div class="col-6 col-md-2 mb-3">
+                    <h5>CATEGORIES</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="../electronics.html" class="nav-link p-0 text-body-secondary">Electronics</a></li>
+                      <li class="nav-item mb-2"><a href="../furniture.html" class="nav-link p-0 text-body-secondary">Furniture</a></li>
+                      <li class="nav-item mb-2"><a href="../books.html" class="nav-link p-0 text-body-secondary">Books</a></li>
+                      <li class="nav-item mb-2"><a href="../clothes.html" class="nav-link p-0 text-body-secondary">Clothes</a></li>
+                      <li class="nav-item mb-2"><a href="../shoes.html" class="nav-link p-0 text-body-secondary">Shoes</a></li>
+                      <li class="nav-item mb-2"><a href="../accessories.html" class="nav-link p-0 text-body-secondary">Accessories</a></li>
+                      <li class="nav-item mb-2"><a href="../watch.html" class="nav-link p-0 text-body-secondary">Watches</a></li>
+                      <li class="nav-item mb-2"><a href="../vehicle.html" class="nav-link p-0 text-body-secondary">Vehicle</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="col-6 col-md-2 mb-3">
+                    <a href="../rent.html" class="nav-link text-body-emphasis"><h5 class="selling">SELL/RENT</h5></a>
+                  </div>
+                </div>
+            
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                  <p>© #itout, Inc. All rights reserved.</p>
+                  <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                  </ul>
+                </div>
+              </footer>
+            </div>
+<script src="../index.js" charset="UTF-8"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>     
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
