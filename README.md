@@ -1,7 +1,7 @@
 # StopBuy
 <p align="center">
   <a href="https://stopbuy-1--pree46.repl.co/">
-    <img alt = "StopBuy Logo" src = "./images/SB (3)">
+    <img alt = "StopBuy Logo" src = "https://www.canva.com/design/DAFlcHgRK78/Yaz0utMb01s5_nq_ZJkskw/edit?utm_content=DAFlcHgRK78&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
   </a>
 </p>
 <h1 align="center" >StopBuy: Unleash Student Commerce - Connect, Trade, Empower with Prudence and Providence!</h1>
@@ -60,7 +60,5 @@ They can also put forward their products in the donation portal.
 If you have any questions or feedback about the ResqAI system, please don't hesitate to contact us - 
 <br>
 
-<a href="https://linktr.ee/prayasu"> Prayasu Satapathy </a> <br>
-<a href="https://linktr.ee/SiddharthaBhattacharjee"> Siddhartha Bhattacharjee </a> <br>
-<a href="https://linktr.ee/AlanChristofer"> Alan Christofer </a> <br>
-<a href="https://linktr.ee/annamalaiprabu"> Annamalai Prabu </a> <br>
+<a href="https://linktr.ee/prayasu"> R Preethi </a> <br>
+<a href="https://linktr.ee/SiddharthaBhattacharjee"> Ritul Bharati </a> <br>
