@@ -6,7 +6,7 @@
 </p>
 <h1 align="center" >StopBuy: Unleash Student Commerce - Connect, Trade, Empower with Prudence and Providence!</h1>
 
-We know that, college students especially one's living in hostel or PG's need to buy various items. So instead of buying new things like furniture, electronic items etc. They can rent, buy, sell or donate second hand products from their peers or seniors who no longer need it. This saves a lot of money which allows them to invest in they career development or for any other useful purpose.  Stop buy is an online retail website which allows college students to sell , rent, donate, purchase and request products from their college peers. In the website students can find their college community where they interact with their peers in order to sell, purchase or rent products.
+College students especially one's living in hostel or PG's need to buy various items. So instead of buying new things like furniture, electronic items etc. They can rent, buy, sell or donate second hand products from their peers or seniors who no longer need it. This saves a lot of money which allows them to invest in they career development or for any other useful purpose.  Stop buy is an online retail website which allows college students to sell , rent, donate, purchase and request products from their college peers. In the website students can find their college community where they interact with their peers in order to sell, purchase or rent products.
 
 <br>
 
