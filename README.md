@@ -10,7 +10,7 @@ College students especially one's living in hostel or PG's need to buy various i
 
 <br>
 
-<a href="https://stopbuy-1--pree46.repl.co/">Our Website</a>
+<a href="https://main--stopbuy.netlify.app/">Our Website</a>
 
 
 <br>
